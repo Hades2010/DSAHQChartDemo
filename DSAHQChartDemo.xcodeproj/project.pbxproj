@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1894C6081A63A4C90068C333 /* NTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C6071A63A4C90068C333 /* NTChartView.m */; };
+		1894C60C1A63A5490068C333 /* NTChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C60A1A63A5490068C333 /* NTChartViewController.m */; };
+		1894C60D1A63A5490068C333 /* NTChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1894C60B1A63A5490068C333 /* NTChartViewController.xib */; };
+		1894C6111A63A9610068C333 /* PieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C60F1A63A9600068C333 /* PieViewController.m */; };
+		1894C6121A63A9610068C333 /* PieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1894C6101A63A9610068C333 /* PieViewController.xib */; };
+		18D6F82C1A63643F0079DE4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6F82B1A63643F0079DE4E /* UIKit.framework */; };
+		18D6F82E1A63643F0079DE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6F82D1A63643F0079DE4E /* Foundation.framework */; };
+		18D6F8301A63643F0079DE4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6F82F1A63643F0079DE4E /* CoreGraphics.framework */; };
+		18D6F8361A63643F0079DE4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D6F8341A63643F0079DE4E /* InfoPlist.strings */; };
+		18D6F8381A63643F0079DE4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6F8371A63643F0079DE4E /* main.m */; };
+		18D6F83C1A63643F0079DE4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6F83B1A63643F0079DE4E /* AppDelegate.m */; };
+		18D6F83E1A63643F0079DE4E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D6F83D1A63643F0079DE4E /* Default.png */; };
+		18D6F8401A63643F0079DE4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D6F83F1A63643F0079DE4E /* Default@2x.png */; };
+		18D6F8421A63643F0079DE4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D6F8411A63643F0079DE4E /* Default-568h@2x.png */; };
+		18D6F84B1A6364610079DE4E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6F8491A6364610079DE4E /* RootViewController.m */; };
+		18D6F84C1A6364610079DE4E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D6F84A1A6364610079DE4E /* RootViewController.xib */; };
+		18D6F8501A63658C0079DE4E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6F84F1A63658C0079DE4E /* QuartzCore.framework */; };
+		18D6F8541A6365C40079DE4E /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6F8531A6365C40079DE4E /* XYPieChart.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1894C6061A63A4C90068C333 /* NTChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTChartView.h; sourceTree = "<group>"; };
+		1894C6071A63A4C90068C333 /* NTChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTChartView.m; sourceTree = "<group>"; };
+		1894C6091A63A5490068C333 /* NTChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTChartViewController.h; sourceTree = "<group>"; };
+		1894C60A1A63A5490068C333 /* NTChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTChartViewController.m; sourceTree = "<group>"; };
+		1894C60B1A63A5490068C333 /* NTChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTChartViewController.xib; sourceTree = "<group>"; };
+		1894C60E1A63A9600068C333 /* PieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieViewController.h; sourceTree = "<group>"; };
+		1894C60F1A63A9600068C333 /* PieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieViewController.m; sourceTree = "<group>"; };
+		1894C6101A63A9610068C333 /* PieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieViewController.xib; sourceTree = "<group>"; };
+		18D6F8281A63643F0079DE4E /* DSAHQChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAHQChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D6F82B1A63643F0079DE4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D6F82D1A63643F0079DE4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D6F82F1A63643F0079DE4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D6F8331A63643F0079DE4E /* DSAHQChartDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSAHQChartDemo-Info.plist"; sourceTree = "<group>"; };
+		18D6F8351A63643F0079DE4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D6F8371A63643F0079DE4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D6F8391A63643F0079DE4E /* DSAHQChartDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSAHQChartDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18D6F83A1A63643F0079DE4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D6F83B1A63643F0079DE4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D6F83D1A63643F0079DE4E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18D6F83F1A63643F0079DE4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18D6F8411A63643F0079DE4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18D6F8481A6364610079DE4E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18D6F8491A6364610079DE4E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		18D6F84A1A6364610079DE4E /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		18D6F84F1A63658C0079DE4E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18D6F8521A6365C40079DE4E /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		18D6F8531A6365C40079DE4E /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D6F8251A63643F0079DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6F8501A63658C0079DE4E /* QuartzCore.framework in Frameworks */,
+				18D6F82C1A63643F0079DE4E /* UIKit.framework in Frameworks */,
+				18D6F82E1A63643F0079DE4E /* Foundation.framework in Frameworks */,
+				18D6F8301A63643F0079DE4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1894C6051A63A4C90068C333 /* NSChart */ = {
+			isa = PBXGroup;
+			children = (
+				1894C6061A63A4C90068C333 /* NTChartView.h */,
+				1894C6071A63A4C90068C333 /* NTChartView.m */,
+			);
+			path = NSChart;
+			sourceTree = "<group>";
+		};
+		18D6F81F1A63643E0079DE4E = {
+			isa = PBXGroup;
+			children = (
+				18D6F8311A63643F0079DE4E /* DSAHQChartDemo */,
+				18D6F82A1A63643F0079DE4E /* Frameworks */,
+				18D6F8291A63643F0079DE4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D6F8291A63643F0079DE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D6F8281A63643F0079DE4E /* DSAHQChartDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D6F82A1A63643F0079DE4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D6F84F1A63658C0079DE4E /* QuartzCore.framework */,
+				18D6F82B1A63643F0079DE4E /* UIKit.framework */,
+				18D6F82D1A63643F0079DE4E /* Foundation.framework */,
+				18D6F82F1A63643F0079DE4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D6F8311A63643F0079DE4E /* DSAHQChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18D6F83A1A63643F0079DE4E /* AppDelegate.h */,
+				18D6F83B1A63643F0079DE4E /* AppDelegate.m */,
+				1894C6091A63A5490068C333 /* NTChartViewController.h */,
+				1894C60A1A63A5490068C333 /* NTChartViewController.m */,
+				1894C60B1A63A5490068C333 /* NTChartViewController.xib */,
+				1894C60E1A63A9600068C333 /* PieViewController.h */,
+				1894C60F1A63A9600068C333 /* PieViewController.m */,
+				1894C6101A63A9610068C333 /* PieViewController.xib */,
+				18D6F8321A63643F0079DE4E /* Supporting Files */,
+				18D6F8481A6364610079DE4E /* RootViewController.h */,
+				18D6F8491A6364610079DE4E /* RootViewController.m */,
+				18D6F84A1A6364610079DE4E /* RootViewController.xib */,
+				1894C6051A63A4C90068C333 /* NSChart */,
+				18D6F8511A6365C40079DE4E /* XYPieChart */,
+			);
+			path = DSAHQChartDemo;
+			sourceTree = "<group>";
+		};
+		18D6F8321A63643F0079DE4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D6F8331A63643F0079DE4E /* DSAHQChartDemo-Info.plist */,
+				18D6F8341A63643F0079DE4E /* InfoPlist.strings */,
+				18D6F8371A63643F0079DE4E /* main.m */,
+				18D6F8391A63643F0079DE4E /* DSAHQChartDemo-Prefix.pch */,
+				18D6F83D1A63643F0079DE4E /* Default.png */,
+				18D6F83F1A63643F0079DE4E /* Default@2x.png */,
+				18D6F8411A63643F0079DE4E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D6F8511A6365C40079DE4E /* XYPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				18D6F8521A6365C40079DE4E /* XYPieChart.h */,
+				18D6F8531A6365C40079DE4E /* XYPieChart.m */,
+			);
+			path = XYPieChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D6F8271A63643F0079DE4E /* DSAHQChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D6F8451A63643F0079DE4E /* Build configuration list for PBXNativeTarget "DSAHQChartDemo" */;
+			buildPhases = (
+				18D6F8241A63643F0079DE4E /* Sources */,
+				18D6F8251A63643F0079DE4E /* Frameworks */,
+				18D6F8261A63643F0079DE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSAHQChartDemo;
+			productName = DSAHQChartDemo;
+			productReference = 18D6F8281A63643F0079DE4E /* DSAHQChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D6F8201A63643E0079DE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 18D6F8231A63643F0079DE4E /* Build configuration list for PBXProject "DSAHQChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D6F81F1A63643E0079DE4E;
+			productRefGroup = 18D6F8291A63643F0079DE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D6F8271A63643F0079DE4E /* DSAHQChartDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D6F8261A63643F0079DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6F8361A63643F0079DE4E /* InfoPlist.strings in Resources */,
+				18D6F83E1A63643F0079DE4E /* Default.png in Resources */,
+				18D6F8401A63643F0079DE4E /* Default@2x.png in Resources */,
+				18D6F8421A63643F0079DE4E /* Default-568h@2x.png in Resources */,
+				18D6F84C1A6364610079DE4E /* RootViewController.xib in Resources */,
+				1894C60D1A63A5490068C333 /* NTChartViewController.xib in Resources */,
+				1894C6121A63A9610068C333 /* PieViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D6F8241A63643F0079DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6F8381A63643F0079DE4E /* main.m in Sources */,
+				18D6F83C1A63643F0079DE4E /* AppDelegate.m in Sources */,
+				18D6F84B1A6364610079DE4E /* RootViewController.m in Sources */,
+				18D6F8541A6365C40079DE4E /* XYPieChart.m in Sources */,
+				1894C6081A63A4C90068C333 /* NTChartView.m in Sources */,
+				1894C60C1A63A5490068C333 /* NTChartViewController.m in Sources */,
+				1894C6111A63A9610068C333 /* PieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D6F8341A63643F0079DE4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D6F8351A63643F0079DE4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D6F8431A63643F0079DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18D6F8441A63643F0079DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D6F8461A63643F0079DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qikuo Yin (ZL8NAH344G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qikuo Yin (ZL8NAH344G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSAHQChartDemo/DSAHQChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "DSAHQChartDemo/DSAHQChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18D6F8471A63643F0079DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qikuo Yin (ZL8NAH344G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSAHQChartDemo/DSAHQChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "DSAHQChartDemo/DSAHQChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D6F8231A63643F0079DE4E /* Build configuration list for PBXProject "DSAHQChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6F8431A63643F0079DE4E /* Debug */,
+				18D6F8441A63643F0079DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D6F8451A63643F0079DE4E /* Build configuration list for PBXNativeTarget "DSAHQChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6F8461A63643F0079DE4E /* Debug */,
+				18D6F8471A63643F0079DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D6F8201A63643E0079DE4E /* Project object */;
+}
